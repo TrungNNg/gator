@@ -1,12 +1,12 @@
----
+
 # Gator
----
+
 Gator is a command-line tool that fetches and manages RSS feeds. It allows users to add, follow, and view RSS feeds and posts conveniently through a terminal interface.
 
 ## Prerequisites
 Before you can run Gator, you'll need to have both PostgreSQL and Go installed on your system:
-* PostgreSQL: Make sure you have a running instance of PostgreSQL and that you know the connection details (e.g., host, port, user, password, database).
-* Go: You need Go installed to compile the program. You can download it from https://golang.org/dl/.
+* `PostgreSQL`: Make sure you have a running instance of PostgreSQL and that you know the connection details (e.g., host, port, user, password, database).
+* `Go`: You need Go installed to compile the program. You can download it from https://golang.org/dl/.
 
 ## Installation
 To install the Gator CLI tool, run the following command:
@@ -36,7 +36,6 @@ echo '{"db_url":"postgres://username:password@localhost:5432/gator?sslmode=disab
 To start using Gator, run the following command in your terminal:
 
 ```bash
-Copy code
 gator <command> [arguments]
 ```
 
@@ -49,12 +48,10 @@ Some of the commands you can use:
 
 For example, to register a new user:
 ```bash
-Copy code
 gator register
 ```
 
 To add a new feed:
 ```bash
-Copy code
 gator addfeed <feed-name> <feed-url>
 ```
